@@ -1,0 +1,39 @@
+h1 {
+  color: aliceblue;
+}
+.header {
+  background-color: black;
+  padding: 3px 3px 1px 20px;
+}
+
+.header-info {
+  color: orange;
+  margin-left: 1px;
+}
+
+.header2 {
+  color: aliceblue;
+  background-color: black;
+  padding: 3px 3px 1px 20px;
+  
+}
+
+h2 {
+  color: red;
+}
+
+.header3 {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.font {
+  color: blue;
+}
+
+.font2 {
+  font-size: 14px;
+  font-weight: 400;
+}
