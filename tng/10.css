@@ -1,0 +1,31 @@
+.container {
+  padding: 80px;
+  border: 1px solid gray;
+  width: 600px;
+  height: 600px;
+}
+
+.position1 {
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  position:relative;
+}
+
+.position2 {
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -110px;
+  left: 290px;
+}
+
+.position3 {
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 10px;
+
+}
