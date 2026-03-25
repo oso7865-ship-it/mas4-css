@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 5px;
+  
+}
+
+.container {
+  padding: 40px 20px;
+  background-color: #fff;
+  border: 1px dotted gray;
+  width: 600px;
+  margin: auto;
+  background-image: url(../edu/p1.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right bottom;
+  height: 700px;
+}
+
+.title {
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.sub-title {
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+}
+
+.content-title {
+  color: red;
+  padding: 15px 0px;
+}
+.content-list {
+  list-style: none;
+  padding-left: 40px;
+  line-height: 30px;
+}

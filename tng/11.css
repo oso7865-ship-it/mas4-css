@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.container {
+  width: 600px;
+  height: 840px;
+  margin: auto;
+  padding: 20px;
+  position: static;
+  background-color: #fff;
+  text-align: center;
+  border: 1px dotted gray;
+}
+
+.main {
+  background-color: green;
+  position: relative;
+  padding: 5px;
+  color: #fff;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 25px;
+}
+
+.header{
+  text-align: left;
+  padding: 5px;
+  color: red;
+}
+
+li{
+  text-align: left;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.img {
+  width: 300px;
+  height: 250px;
+  /* position: relative; */
+  /* left: 10px; */
+  float: right;
+  
+
+
+}
