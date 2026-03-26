@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.A::before {
+  content: "*";
+  color: red;
+}
+
+.A{
+  margin: 5px;
+  
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid red;
+  }
+
+textarea:focus {
+    outline: none;
+    border: 3px solid red;
+  }
+
+input:checked + label {
+  outline: none;
+  color: red;
+}
+
+input:disabled + label {
+    color: aqua;
+  }
+
+input{
+  mix-blend-mode: multiply;
+  border: 2px solid black;
+}
+
+.main{
+  font-size: 24px;
+  color: violet;
+  font-weight: 800;
+}
+
+fieldset {
+  border: 2px solid black;
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  background-image: url(../edu/p1.png);
+  background-size: cover;
+}
+
+.textarea{
+  display: block;
+  margin-left: 4px;
+}
+
+textarea {
+  position: relative;
+  left: 65px;
+  bottom: 20px;
+  mix-blend-mode: multiply;
+}
+
+.button{
+  position: relative;
+  left: 10px;
+  top: -10px;
+}
+
+.button:hover + .content{
+  display: block;
+  position: relative;
+}
+
+.content{
+  display: none;
+  background-color: black;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: -35px;
+  width: 300px;
+  padding: 3px;
+}
+
+legend{
+  margin: 15px;
+}

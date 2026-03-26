@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  padding: 0px 10px 10px;
+}
+
+legend {
+  font-size: 24px;
+  color: blueviolet;
+}
+
+input, textarea{
+  background-color: transparent;
+  outline: none;
+  
+}
+
+input:focus, textarea:focus {
+  border: 3px solid red;
+}
+
+textarea {
+  width: 200px;
+  height: 150px;
+}
+
+.vertical-aling {
+  vertical-align: top;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+}
+
+.container {
+  background-image: url("../edu/p1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.required-catgory::before {
+  content: "*";
+  color: red;
+}
+
+.btn-send {
+  position: relative;
+}
+
+.btn-send:hover::after{
+  content: "내용을 다시 한 번 확인해 주세요.";
+  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+  position: absolute;
+  top: -5px;
+  right: -280px;
+}
