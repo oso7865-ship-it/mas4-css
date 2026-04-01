@@ -1,37 +1,102 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
-ul {
-  position: relative;
+/* 헤더 */
+
+
+
+.header-img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
-a{
+.title {
   color: aliceblue;
+
+  word-wrap: break-word;
+  width: 250px;
+  font-size: 20px;
+}
+
+.sub-title {
+  color: aliceblue;
+  word-wrap: break-word;
+  text-align: right;
+}
+
+
+
+/* 메인 */
+
+
+
+.container{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  gap: 20px;
+}
+
+.card{
+  display: grid;
+  padding: 10px;
+  /* grid-template-columns: repeat(auto-fill,minmax 200px, 1fr); */
+}
+
+.card-img{
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+  border: 1px solid black;
+    
+}
+
+
+.text{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.425);
+  font-size: 24px;
+  font-weight: 800px;
+  color: aliceblue;
+  /* position: absolute; */
+  bottom: 0px;
+}
+
+/* 버튼 */
+.card-btn-box {
+  padding: 10px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  /* position: absolute; */
+  padding: 15px;
   text-decoration: none;
-}
-
-li {
-  position: absolute;
+  background-color: yellowgreen;
+  border-radius: 25px;
+  bottom: 0px;
+  text-align: center;
+  display: inline-block;
   width: 100px;
-  height: 40px;
-  background-color: black;
-  color: aliceblue;
-  text-align: center; 
-  top: 0px;
-  
+  color: black;
 }
 
-li:nth-child(2){
-  top: 45px;
-  display: none;
-}
-li:nth-child(3){
-  top: 90px;
-  display: none;
-}
-
-li:hover:nth-child(1){
-  display: block;
+.btn:hover{
+  background-color: rgba(153, 205, 50, 0.425);
+  color: rgba(0, 0, 0, 0.363);
+  transition: 2s;
 }
