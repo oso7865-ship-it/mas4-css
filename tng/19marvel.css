@@ -3,6 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* ---------------------------- */
+/* 공통 스타일 관련 */
+/* ---------------------------- */
+a{
+  display: inline-block;
+  width: 100%;
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #6e5af0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.btn-middle {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-large {
+  width: 60px;
+  height: 60px;
+}
+
+.btn-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+/* .btn-top > a{
+  padding: 0;
+  font-size: 24px;
+} */
+
+.input-w-80p {
+  width: 80%;
+}
+
+/* ---------------------------- */
+/* 지역 스타일 관련 */
+/* ---------------------------- */
+
 
 .container {
   display: grid;
@@ -51,13 +107,6 @@
   gap: 5px;
 }
 
-a{
-  display: inline-block;
-  width: 100%;
-  color: #f5f5f5;
-  text-decoration: none;
-  padding: 3px 15px;
-}
 
 .nav-list > li:hover {
   background-color: black;
@@ -68,7 +117,56 @@ a{
 /* 매인관련 */
 /* ---------------------------- */
 .main {
-  height: 200vh; /* todo 사이드바 완료시 나중에 꼭 지워야함 */
-  background-color: #f5f5f5;
-  margin: auto;
+  min-height: 100vh;
+  background-color: gray;
+}
+
+.main-search-box {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-banner {
+  background-image: url("../img/main_title.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-title {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.main-contents-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-img {
+  padding-top: 150% ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 800;
 }
