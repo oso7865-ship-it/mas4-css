@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header {
+  height: 300px;
+  background-image: url("../img/main_title.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header-inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between; /* 🔥 좌우 끝 배치 */
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.desc {
+  color: white;
+  text-align: right;
+  width: 20%;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .desc {
+    text-align: left;
+    max-width: 100%;
+  }
+}

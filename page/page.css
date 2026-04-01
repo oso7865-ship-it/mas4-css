@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+}
+
+.menu,
+.account,
+.title {
+  color: rgb(240, 145, 22);
+}
+
+.menu {
+  background-color: blue;
+}
+
+.title {
+  margin: auto;
+}
+
+.account {
+}
