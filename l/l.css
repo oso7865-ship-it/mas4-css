@@ -4,7 +4,82 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .box {
+=======
+/* 헤더 */
+
+.header-img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  color: aliceblue;
+
+  word-wrap: break-word;
+  width: 250px;
+  font-size: 20px;
+}
+
+.sub-title {
+  /* color: aliceblue;
+  word-wrap: break-word;
+  text-align: right; */
+  color: aliceblue;
+  text-align: right;
+  justify-self: end;
+  width: min(300px, 100%);
+  min-width: 0;
+  word-break: break-all;
+}
+
+/* 메인 */
+
+.container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: grid;
+  padding: 10px;
+  /* grid-template-columns: repeat(auto-fill,minmax 200px, 1fr); */
+}
+
+.card-img {
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+  border: 1px solid black;
+}
+
+.text {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.425);
+  font-size: 24px;
+  font-weight: 800px;
+  color: aliceblue;
+  /* position: absolute; */
+  bottom: 0px;
+}
+
+/* 버튼 */
+.card-btn-box {
+  padding: 10px;
+  /* border: 1px solid black; */
+>>>>>>> 437ff7ff7d67996ca884e5024110ceb394c2817d
   display: flex;
   flex-direction: column;
 }
@@ -30,3 +105,11 @@ margin-top: 10px;
 background-color: rgba(255, 166, 0, 0.548);
 }
 
+<<<<<<< HEAD
+=======
+.btn:hover {
+  background-color: rgba(153, 205, 50, 0.425);
+  color: rgba(0, 0, 0, 0.363);
+  transition: 2s;
+}
+>>>>>>> 437ff7ff7d67996ca884e5024110ceb394c2817d
